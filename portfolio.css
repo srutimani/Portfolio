@@ -1,0 +1,29 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  margin-left: 30px;
+}
+
+.grid {
+  border: 2px;
+  width: 500px;
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 200px;
+}
+
+.box {
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
+}
